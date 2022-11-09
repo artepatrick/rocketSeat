@@ -1,0 +1,39 @@
+div.container {
+    max-width: 950px;
+    min-width: 300px;
+    background-color: #f0f0f0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+button {
+    width: 200px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: darkgray;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
