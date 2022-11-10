@@ -9,6 +9,18 @@ div.container {
     flex-direction: column;
 }
 
+div.container input {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    border-radius: 5px;
+    width: 160px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: white;
+}
+
 h1 {
     font-size: 2em;
     font-family: 'Poppins', sans-serif;

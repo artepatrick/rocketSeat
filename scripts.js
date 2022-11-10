@@ -46,14 +46,30 @@ function clickBotao2() {
     console.log(patrick.movimento())
     console.log(joao.movimento())
 }
+
 let tech = ["primeiro dado", "segundo dado"]
+
 function clickBotao3() {
+    let i = 0
     tech.push('no final') // Adiciona ao final
     tech.unshift('no inicio') // Adiciona no começo
-    tech.pop() // remove do final
-    tech.shift() // remove do começo
     console.log(tech)
+
+    /* function keydown(e) {
+    document.onkeydown = keydown;
+
+            console.log(e.keyCode)
+        }
+        if (e.keyCode === 18 && i < 1) {
+            console.log('entrou na função alt key' + i)
+            tech.pop() // remove do final
+            tech.shift() // remove do começo
+            i = 2;
+            console.log('i = ' + i)
+        } */
+
 }
 
-
-
+function clicando() {
+    console.log('Testando se detectou a tecla')
+}
