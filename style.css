@@ -49,3 +49,17 @@ button:hover {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+
+div.Davi {
+    display: inline;
+    width: 0 auto;
+    color: green;
+    text-align: center;
+    background-color: #d5f9b3;
+}
+
+div.Giphy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
